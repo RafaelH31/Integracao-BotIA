@@ -1,0 +1,109 @@
+Linguagem: java
+Pergunta: quero que vc me passe um guia basico sobre a sintaxe do java, e também crie o codigo de uma calculadora no final para exemplificar
+Quantidade de tokens da pergunta: 33
+Custo da pergunta: $0.0000330
+Resposta do Bot: Claro! Aqui está um guia básico sobre a sintaxe do Java:
+
+1. **Comentários:** Comentários de uma linha começam com `//`, enquanto comentários de várias linhas são colocados entre `/*` e `*/`.
+
+```java
+// Comentário de uma linha
+
+/*
+Comentário
+de várias
+linhas
+*/
+```
+
+2. **Declaração de variáveis:** As variáveis em Java devem ser declaradas com um tipo de dado específico, seguido pelo nome da variável.
+
+```java
+int numero;
+String texto;
+double decimal;
+```
+
+3. **Estruturas de decisão:** Em Java, as estruturas de decisão são realizadas através de `if`, `else if` e `else`.
+
+```java
+if (condicao) {
+    // Código a ser executado se a condição for verdadeira
+} else if (outraCondicao) {
+    // Código a ser executado se a primeira condição for falsa e a segunda for verdadeira
+} else {
+    // Código a ser executado se nenhuma das condições anteriores for verdadeira
+}
+```
+
+4. **Estruturas de repetição:** Para realizar repetições em Java, você pode utilizar `for`, `while` e `do-while`.
+
+```java
+for (int i = 0; i < 10; i++) {
+    // Código a ser repetido
+}
+
+while (condicao) {
+    // Código a ser repetido enquanto a condição for verdadeira
+}
+
+do {
+    // Código a ser repetido pelo menos uma vez e depois repetido enquanto a condição for verdadeira
+} while (condicao);
+```
+
+Agora, vou criar um exemplo de código para uma calculadora simples em Java:
+
+```java
+import java.util.Scanner;
+
+public class Calculadora {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double numero1, numero2, resultado;
+        char operacao;
+
+        System.out.println("Digite o primeiro número: ");
+        numero1 = scanner.nextDouble();
+
+        System.out.println("Digite a operação desejada (+, -, *, /): ");
+        operacao = scanner.next().charAt(0);
+
+        System.out.println("Digite o segundo número: ");
+        numero2 = scanner.nextDouble();
+
+        switch (operacao) {
+            case '+':
+                resultado = numero1 + numero2;
+                break;
+            case '-':
+                resultado = numero1 - numero2;
+                break;
+            case '*':
+                resultado = numero1 * numero2;
+                break;
+            case '/':
+                if (numero2 != 0) {
+                    resultado = numero1 / numero2;
+                } else {
+                    System.out.println("Impossível dividir por zero");
+                    return;
+                }
+                break;
+            default:
+                System.out.println("Operação inválida");
+                return;
+        }
+
+        System.out.println("O resultado da operação é: " + resultado);
+    }
+}
+```
+
+Espero que esse guia básico sobre a sintaxe do Java e o exemplo de uma calculadora tenham sido úteis! Se você tiver mais dúvidas ou precisar de mais exemplos, estou à disposição para ajudar.
+Quantidade de tokens da resposta: 704
+Custo da resposta: $0.0007040
+Número total de tokens utilizados na requisição: 737
+Custo total: $0.0007370
+
