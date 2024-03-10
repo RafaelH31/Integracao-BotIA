@@ -70,7 +70,8 @@ O programa está organizado em vários métodos para melhorar a legibilidade e a
 - O arquivo de log, chamado `relatorio.txt`, contém detalhes sobre cada interação do usuário, incluindo linguagem, entrada do usuário e resposta da API.
 
 ## Exemplo de funcionamento
-![ImagemGithub](https://github.com/RafaelH31/Integracao-BotIA/assets/125298353/a1a0bb06-2e0a-416e-a1f6-718e1610bff2)
+- ![ImagemGithub](https://github.com/RafaelH31/Integracao-BotIA/assets/125298353/a1a0bb06-2e0a-416e-a1f6-718e1610bff2)
+- Você pode conferir a requisição completa no arquivo "relatorios" 
 
 ## Conclusão
 
