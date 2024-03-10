@@ -69,6 +69,11 @@ O programa está organizado em vários métodos para melhorar a legibilidade e a
 - O programa cria um diretório "relatorios" dentro de "src/main/resources" para armazenar arquivos de log.
 - O arquivo de log, chamado `relatorio.txt`, contém detalhes sobre cada interação do usuário, incluindo linguagem, entrada do usuário e resposta da API.
 
+## Exemplo de funcionamento
+![ImagemGithub](https://github.com/RafaelH31/Integracao-BotIA/assets/125298353/a1a0bb06-2e0a-416e-a1f6-718e1610bff2)
+
 ## Conclusão
 
 `BotCorrecao` oferece uma maneira simples e interativa de consultar o modelo OpenAI GPT-3.5 Turbo para obter informações sobre linguagens de programação e tópicos de codificação. O design modular do programa facilita a manutenção e a extensão para futuras melhorias.
+
+
